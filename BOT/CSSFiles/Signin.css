@@ -1,0 +1,46 @@
+#signin-pannel{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+}
+#signin-pannel div{
+   margin-top:15px;
+}
+    #username{
+        text-align:center;
+        font-family:sans-serif;
+        font-size:20px;
+        width:200px;
+        background-color: inherit;
+        color:darkblue;
+        border-left:none;
+        border-right:none;
+        border-top:none;
+        padding-left:30px;
+        background-image: url("/BOT/icons/user.png");
+        background-size:30px;
+        background-repeat: no-repeat;
+        border-color:darkgray;
+    }
+    #password{
+        text-align:center;
+        font-family:sans-serif;
+        font-size:20px;
+        width:200px;
+        background-color: inherit;
+        color:darkblue;
+        border-left:none;
+        border-right:none;
+        border-top:none;
+        padding-right:30px;
+        border-color:darkgray;
+    }
+    #submit-btn{
+        font-size:20px;
+        color:darkgray;
+        background-color:inherit;
+        border:none;
+        box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.5);
+    }
